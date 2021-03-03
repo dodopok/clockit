@@ -18,7 +18,7 @@ exitHook(callback => {
 // cron as 09 e as 18, de segunda a sexta
 // TODO: lidar com feriados e dias exclusivos (férias)
 
-task = cron.schedule('0 9,18 * * 1-5', () => {
+task = cron.schedule(process.env.CRON_RULE, () => {
   clock.clockit();
 }, {
   scheduled: true,
