@@ -8,12 +8,13 @@ Como experimento, deixo ele rodando no meu **RaspberryPi**. Você pode usar algo
 Ao iniciar, o script vai enviar logs de mensagem no seu **Telegram** através de um bot.
 
 # Requerimentos:
-- **Node.js** instalado.
+- **Node.js** e **NPM** instalado.
 
 # Setup:
 
 - Crie uma chave de API do Telegram: https://t.me/botfather
 - Duplique o arquivo ```.env.sample``` como .env com seus dados.
+- ```npm install```
 
 # Para rodar:
 ``` sh
