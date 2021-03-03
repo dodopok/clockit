@@ -5,7 +5,7 @@ O script roda automaticamente as 09h00 e 18h00, de segunda a sexta.
 
 Como experimento, deixo ele rodando no meu **RaspberryPi**. Você pode usar algo parecido ou deixar o script rodando no *boot* do seu OS.
 
-Ao iniciar, o script vai enviar logs de mensagem no seu **Telegram** através de um bot.
+Ao iniciar, o script vai enviar logs de mensagem no seu **Telegram** através de um bot. Você pode enviar mensagem pro bot pra ter certeza de que ele ainda está rodando (ele vai responder). Se algum problema fizer o script parar de rodar, o bot também avisará.
 
 # Requerimentos:
 - **Node.js** e **NPM** instalado.
